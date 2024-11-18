@@ -49,49 +49,54 @@
 
         <h2><strong><em>FORMULARIO</em></strong></h2>
 
-    
-
     <!--fromulario -->
-    <section class="contenedor-formulario">
 
+<main class="grid-container">
+
+    <div class="grid-item">
+        
         <form action="/submit" method="post" class="formulario">
 
             <label for="nombre">Nombres:</label>
             <input type="text" name="Nombres" id="Nombres">
-
+            <br>
             <label for="apellido">Apellidos:</label>
             <input type="text" name="Apellidos" id="Apellidos">
-
+            <br>
             <label for="edad">Edad:</label>
             <input type="number" name="edad" id="edad">
-
+            <br>
             <label for="">Nacionalidad:</label>
             <input type="text" name="Nacionalidad" id="Nacionalidad">
-
+            <br>
+            <br>
             <label for="mensaje">Mensaje:</label>
             <textarea name="mensaje" id="mensaje"></textarea>
-
-            <div class="div-generos">
+            <br>
+            <div>
 
                 <label for="genero">Género:</label>
+                <br>
+                <input type="radio" name="" id="">
                 <label for="">Masculino</label>
+                <br>
                 <input type="radio" name="" id="">
                 <label for="">Femenino</label>
-                <input type="radio" name="" id="">
-                <label for="">No Identificado</label>
+                <br>
                 <input type="radio" name=" " id="">
-
+                <label for="">No Identificado</label>
+                <br>
             </div>
 
             <label for="localidad">Localidad:</label>
             <input type="text" name="" id="">
-
+            <br>
             <label for="">Usuario:</label>
             <input type="text" name="usuario" id="usuario">
-
+            <br>
             <label for="password">Contraseña:</label>
             <input type="password" name="password" id="password">
-
+            <br>
             <label for="pais">País:</label>
             <select name="" id="">
                 <option value="">Argentina</option>
@@ -100,12 +105,14 @@
                 <option value="">Chile</option>
                 <option value="">Paraguay</option>
                 <option value="">Venezuela</option>
-
+                <br>
+                <br>
                 <input class="imput" type="submit" value="Enviar">
+            </form>
 
-        </form>
+    </div>
 
-    </section>
+</main>
 
     <script src="https://kit.fontawesome.com/1fcd71462f.js" crossorigin="anonymous"></script>
 
@@ -114,6 +121,7 @@
             <i class="fa-brands fa-instagram"> creador</i>
         </a>
     </footer>
+
 </body>
 
 </html>
